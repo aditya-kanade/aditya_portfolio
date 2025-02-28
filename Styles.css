@@ -9,9 +9,12 @@
 /* Body styling */
 body {
     background-color: #f4f4f9;
-    background: linear-gradient(to right, #ebfa69, #f3c98a, #e8bf4c);
+    background: linear-gradient(to right, #e28644,#e8e5e1, #57e84c);
     color: #333;
     line-height: 1.6;
+}
+body:hover{
+    background: linear-gradient(to right, #ebfa69, #f3c98a, #e8bf4c);
 }
 
 /* Container for the header */
@@ -21,7 +24,6 @@ body {
     padding: 0 20px;
     text-align: center;
 }
-
 
 /* Header section */
 /* Navbar Styling */
@@ -40,7 +42,12 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 0px;
+}
+.navbar-container img{
+    align-items: left;
+    justify-content: left;
+    float: left;
 }
 
 .navbar-item {
@@ -82,7 +89,7 @@ section h2 {
 
     .navbar-item {
         font-size: 16px;
-        padding: 10px 20px;
+        padding: 4px 8px;
     }
 }
 
@@ -97,12 +104,21 @@ header h1 {
     font-size: 3.5em;
     margin-bottom: 10px;
     animation: fadeIn 2s ease-out;
+    color:rgb(213, 249, 83); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
-
 header p {
     font-size: 1.2em;
     margin-bottom: 20px;
     animation: fadeIn 2s ease-out 1s;
+}
+header p:hover{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-out 1s;
+    color: aquamarine;
+    animation:both;
 }
 
 .contact-btn {
